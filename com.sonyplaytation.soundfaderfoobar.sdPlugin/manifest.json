@@ -1,0 +1,36 @@
+{
+    "Actions": [
+        {
+            "Name": "Foobar2000 Volume Fade",
+            "UUID": "com.sonyplaytation.soundfaderfoobar",
+            "Icon": "images/foobar",
+            "States": [
+                {
+                    "Image": "images/foobar"
+                }
+            ],
+            "PropertyInspectorPath": "property_inspector/pi-fader-foobar.html"
+        }
+    ],
+    "UUID": "com.sonyplaytation.soundfaderfoobar",
+    "Author": "Lauren",
+    "Category": "Sound Fader Foobar2K",
+    "CategoryIcon": "images/category-icon",
+    "CodePath": "SoundFader.exe",
+    "CodePathWin": "SoundFader.exe",
+    "Description": "A fork of Tsuteto's SoundFader that adds support for Foobar2000 via the BeefWeb API.",
+    "Name": "Sound Fader Foobar2K",
+    "Icon": "images/plugin-icon",
+    "URL": "https://sonyplaytation.neocities.org/",
+    "Version": "1.1.0.0",
+    "SDKVersion": 2,
+    "Software": {
+        "MinimumVersion": "6.4"
+    },
+    "OS": [
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ]
+}

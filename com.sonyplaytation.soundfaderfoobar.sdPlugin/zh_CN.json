@@ -1,0 +1,38 @@
+﻿{
+    "Name": "Sound Fader",
+    "Description": "只需轻触一下，即可淡入淡出应用程序和声音设备的声音。",
+    "jp.tsuteto.soundfader.app-fader": {
+        "Name": "应用程序渐变器",
+        "Tooltip": "淡入/淡出特定应用程序的声音"
+    },
+    "jp.tsuteto.soundfader.device-fader": {
+        "Name": "设备渐变器",
+        "Tooltip": "淡入/淡出特定声音设备的声音"
+    },
+    "Localization": {
+        "Action": "操作",
+        "Toggle": "切换",
+        "Fade out": "淡出",
+        "Fade in": "淡入",
+        "Application": "应用程序",
+        "Select Application": "选择应用程序",
+        "System": "系统",
+        "Device": "设备",
+        "Select Device": "选择设备",
+        "Duration": "持续时间",
+        "Target Volume": "目标容量",
+        "Display": "显示",
+        "App name": "应用程序名称",
+        "Device name": "设备名称",
+        "Default": "默认值",
+        "Output": "输出",
+        "Input": "输入",
+        "Fade-Out Bending": "淡出弯曲",
+        "Fade-In Bending": "淡入弯曲",
+        "Intensity": "强度",
+        "Type": "类型",
+        "Exponential": "指数型",
+        "Logarithmic": "对数型",
+        "For details on the bending, see the Sound Fader plugin page in Marketplace.": "有关弯曲的详细信息，请参阅市场中的 Sound Fader 插件页面。"
+    }
+}

@@ -1,0 +1,38 @@
+﻿{
+    "Name": "Sound Fader",
+    "Description": "Com apenas um toque, faça fade in/out do som de aplicativos e dispositivos de áudio.",
+    "jp.tsuteto.soundfader.app-fader": {
+        "Name": "Fader de Aplicativo",
+        "Tooltip": "Ajusta o volume de aplicativos específicos"
+    },
+    "jp.tsuteto.soundfader.device-fader": {
+        "Name": "Fader de Dispositivo",
+        "Tooltip": "Ajusta o volume de dispositivos de áudio específicos"
+    },
+    "Localization": {
+        "Action": "Ação",
+        "Toggle": "Alternar",
+        "Fade out": "Diminuir",
+        "Fade in": "Aumentar",
+        "Application": "Aplicativo",
+        "Select Application": "Selecionar Aplicativo",
+        "System": "Sistema",
+        "Device": "Dispositivo",
+        "Select Device": "Selecionar Dispositivo",
+        "Duration": "Duração",
+        "Target Volume": "Volume Alvo",
+        "Display": "Exibir",
+        "App name": "Nome do Aplicativo",
+        "Device name": "Nome do Dispositivo",
+        "Default": "Padrão",
+        "Output": "Saída",
+        "Input": "Entrada",
+        "Fade-Out Bending": "Dobra de Diminuir",
+        "Fade-In Bending": "Dobra de Aumentar",
+        "Intensity": "Intensidade",
+        "Type": "Tipo",
+        "Exponential": "Exponencial",
+        "Logarithmic": "Logarítmico",
+        "For details on the bending, see the Sound Fader plugin page in Marketplace.": "Para detalhes sobre a dobra, consulte a página do plugin Sound Fader no Marketplace."
+    }
+}

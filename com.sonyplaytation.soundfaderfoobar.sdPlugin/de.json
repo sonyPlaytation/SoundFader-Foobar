@@ -1,0 +1,38 @@
+﻿{
+    "Name": "Sound Fader",
+    "Description": "Ermöglicht das Ein- und Ausblenden des Tons von Apps und Soundgeräten mit nur einer Berührung.",
+    "jp.tsuteto.soundfader.app-fader": {
+        "Name": "Für Apps",
+        "Tooltip": "Blendet den Ton einer bestimmten App ein/aus"
+    },
+    "jp.tsuteto.soundfader.device-fader": {
+        "Name": "Für Geräte",
+        "Tooltip": "Blendet den Ton einer bestimmten Soundgeräts ein/aus"
+    },
+    "Localization": {
+        "Action": "Aktion",
+        "Toggle": "Umschalten",
+        "Fade out": "Ausblenden",
+        "Fade in": "Einblenden",
+        "Application": "Anwendung",
+        "Select Application": "Anwendung auswählen",
+        "System": "System",
+        "Device": "Soundgerät",
+        "Select Device": "Gerät auswählen",
+        "Duration": "Dauer",
+        "Target Volume": "Zielvolumen",
+        "Display": "Anzeige",
+        "App name": "App-Name",
+        "Device name": "Gerätename",
+        "Default": "Standard",
+        "Output": "Ausgabe",
+        "Input": "Eingang",
+        "Fade-Out Bending": "Ausblenden Biegen",
+        "Fade-In Bending": "Einblenden Biegen",
+        "Intensity": "Intensität",
+        "Type": "Typ",
+        "Exponential": "Exponential",
+        "Logarithmic": "Logarithmisch",
+        "For details on the bending, see the Sound Fader plugin page in Marketplace.": "Für Details zu den Biegungen siehe die Sound Fader Plugin-Seite im Marketplace."
+    }
+}

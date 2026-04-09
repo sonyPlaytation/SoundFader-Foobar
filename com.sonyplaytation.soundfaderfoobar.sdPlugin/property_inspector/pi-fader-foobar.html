@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		  content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<title>SoundFader Property Inspector</title>
+	<link rel="stylesheet" href="libs/css/sdpi.css">
+	<link rel="stylesheet" href="css/pi.css">
+</head>
+<body>
+	<div id="property-inspector" class="sdpi-wrapper">
+		<form>
+			<div class="sdpi-item" id="app">
+				<div class="sdpi-item-label" data-localize>Application</div>
+				<select id="selApp" class="sdpi-item-value select" name="AppId">
+				</select>
+			</div>
+			<div class="sdpi-item" id="mode" type="radio">
+				<div class="sdpi-item-label" data-localize>Action</div>
+				<div class="sdpi-item-value">
+					<div class="sdpi-item-child">
+						<input id="selModeToggle" name="Mode" type="radio" value="0" />
+						<label for="selModeToggle" class="sdpi-item-label"><span></span><div class="for-localize" data-localize>Toggle</div></label>
+					</div>
+					<div class="sdpi-item-child">
+						<input id="selModeOut" name="Mode" type="radio" value="1" />
+						<label for="selModeOut" class="sdpi-item-label"><span></span><div class="for-localize" data-localize>Fade out</div></label>
+					</div>
+					<div class="sdpi-item-child">
+						<input id="selModeIn" name="Mode" type="radio" value="2" />
+						<label for="selModeIn" class="sdpi-item-label"><span></span><div class="for-localize" data-localize>Fade in</div></label>
+					</div>
+				</div>
+			</div>
+			<div class="sdpi-item" id="duration" type="range">
+				<div class="sdpi-item-label" data-localize>Duration</div>
+				<div class="sdpi-item-value">
+					<span id="min" class="clickable" value="100">100</span>
+					<input class="floating-tooltip" data-suffix="ms" type="range"
+						   min="100" max="10000" step="100" name="Duration" id="txtDuration" />
+					<span id="max" class="clickable" value="10000">10000</span>
+				</div>
+			</div>
+			<div class="sdpi-item" id="target" type="range">
+				<div class="sdpi-item-label" data-localize>Target Volume</div>
+				<div class="sdpi-item-value">
+					<span id="min" class="clickable" value="1">1</span>
+					<input class="floating-tooltip" data-suffix=" %" type="range"
+						   min="1" max="100" name="Target" id="txtTarget" />
+					<span id="max" class="clickable" value="100">100</span>
+				</div>
+			</div>
+			<div class="sdpi-item" id="mode" type="checkbox">
+				<div class="sdpi-item-label" data-localize>Display</div>
+				<div class="sdpi-item-value">
+					<div class="sdpi-item-child">
+						<input id="chkDisplayName" name="DisplayName" type="checkbox" />
+						<label for="chkDisplayName" class="sdpi-item-label"><span></span><div class="for-localize" data-localize>App name</div></label>
+					</div>
+				</div>
+			</div>
+			<div class="sdpi-heading" data-localize>Fade-Out Bending</div>
+			<div class="sdpi-item" id="bendingOut" type="range">
+				<div class="sdpi-item-label" data-localize>Intensity</div>
+				<div class="sdpi-item-value">
+					<span id="min" class="clickable" value="0"><img src="img/fadeout-liner.svg" height="16" width="16" /></span>
+					<input class="floating-tooltip" data-suffix="" type="range"
+						   min="0" max="20" step="1" name="BendingOut" id="txtBendingOut" />
+					<span id="max" class="clickable" value="20"><img src="img/fadeout-easeout.svg" height="16" width="16" /></span>
+				</div>
+			</div>
+			<div class="sdpi-item" id="bendingTypeOut" type="range">
+				<div class="sdpi-item-label" data-localize>Type</div>
+				<select id="selBendingTypeOut" class="sdpi-item-value select" name="BendingTypeOut">
+					<option value="POW" data-localize>Exponential</option>
+					<option value="LOG" data-localize>Logarithmic</option>
+				</select>
+			</div>
+			<div class="sdpi-heading" data-localize>Fade-In Bending</div>
+			<div class="sdpi-item" id="bendingIn" type="range">
+				<div class="sdpi-item-label" data-localize>Intensity</div>
+				<div class="sdpi-item-value">
+					<span id="min" class="clickable" value="0"><img src="img/fadein-liner.svg" height="16" width="16" /></span>
+					<input class="floating-tooltip" data-suffix="" type="range"
+						   min="0" max="20" step="1" name="BendingIn" id="txtBendingIn" />
+					<span id="max" class="clickable" value="20"><img src="img/fadein-easein.svg" height="16" width="16" /></span>
+				</div>
+			</div>
+			<div class="sdpi-item" id="bendingTypeIn" type="range">
+				<div class="sdpi-item-label" data-localize>Type</div>
+				<select id="selBendingTypeIn" class="sdpi-item-value select" name="BendingTypeIn">
+					<option value="POW" data-localize>Exponential</option>
+					<option value="LOG" data-localize>Logarithmic</option>
+				</select>
+			</div>
+			<hr />
+			<div class="sdpi-item" id="item-custom-desc">
+				<div class="sdpi-item-label icon info"></div>
+				<div class="sdpi-item-value">
+					<div data-localize>For details on the bending, see the Sound Fader plugin page in Marketplace.</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src="libs/js/utils.js"></script>
+	<script src="libs/js/constants.js"></script>
+	<script src="libs/js/events.js"></script>
+	<script src="libs/js/api.js"></script>
+	<script src="libs/js/property-inspector.js"></script>
+	<script src="libs/js/dynamic-styles.js"></script>
+	<script src="libs/js/prototypes.js"></script>
+
+	<script src="js/local-utils.js"></script>
+	<script src="js/pi-fader-app.js"></script>
+</body>
+</html>

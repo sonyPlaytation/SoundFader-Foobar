@@ -25,6 +25,17 @@
             "PropertyInspectorPath": "property_inspector/pi-fader-device.html",
             "Tooltip": "Fades in/out the sound of a specific sound device",
             "UUID": "jp.tsuteto.soundfader.device-fader"
+        },
+        {
+            "Name": "Foobar2000 Volume Fade",
+            "UUID": "com.sonyplaytation.soundfaderfoobar",
+            "Icon": "images/foobar",
+            "States": [
+                { 
+                    "Image": "images/foobar" 
+                }
+            ],
+            "PropertyInspectorPath": "property_inspector/pi-fader-foobar.html"
         }
     ],
     "UUID": "jp.tsuteto.soundfader",

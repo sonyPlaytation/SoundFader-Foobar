@@ -1,0 +1,38 @@
+﻿{
+    "Name": "Sound Fader",
+    "Description": "Дозволяє застосовувати ефекти наростання/зменшення звуку програм і звукових пристроїв одним дотиком.",
+    "jp.tsuteto.soundfader.app-fader": {
+        "Name": "Для програм",
+        "Tooltip": "Застосування ефектів наростання/зменшення до певної програм"
+    },
+    "jp.tsuteto.soundfader.device-fader": {
+        "Name": "Для пристроїв",
+        "Tooltip": "Застосування ефектів наростання/зменшення до певного звукового пристрою"
+    },
+    "Localization": {
+        "Action": "Дія",
+        "Toggle": "Перемикання",
+        "Fade out": "Зменшити",
+        "Fade in": "Посилити",
+        "Application": "Програма",
+        "Select Application": "Вибрати програму",
+        "System": "Система",
+        "Device": "Пристрій",
+        "Select Device": "Виберіть пристрій",
+        "Duration": "Тривалість",
+        "Target Volume": "Цільовий об'єм",
+        "Display": "Дисплей",
+        "App name": "Назва програми",
+        "Device name": "Назва пристрою",
+        "Default": "За замовчуванням",
+        "Output": "Вихід",
+        "Input": "Вхід",
+        "Fade-Out Bending": "Зменшення звуку",
+        "Fade-In Bending": "Посилення звуку",
+        "Intensity": "Інтенсивність",
+        "Type": "Тип",
+        "Exponential": "Експоненційний",
+        "Logarithmic": "Логарифмічний",
+        "For details on the bending, see the Sound Fader plugin page in Marketplace.": "Для отримання додаткової інформації про вигин дивіться сторінку плагіна Sound Fader на ринку."
+    }
+}

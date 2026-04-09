@@ -1,0 +1,12 @@
+﻿div.for-localize {
+    display: inline;
+}
+
+#property-inspector .sdpi-item-label.icon {
+    align-self: stretch;
+    background-position-y: top;
+}
+
+    #property-inspector .sdpi-item-label.icon::after {
+        content: "";
+    }

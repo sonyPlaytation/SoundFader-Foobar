@@ -1,0 +1,38 @@
+﻿{
+    "Name": "Sound Fader",
+    "Description": "터치 한 번으로 앱과 음향 장치의 사운드를 페이드 인 및 페이드 아웃할 수 있습니다.",
+    "jp.tsuteto.soundfader.app-fader": {
+        "Name": "앱용 페이더",
+        "Tooltip": "특정 앱의 사운드를 페이드 인/페이드 아웃합니다"
+    },
+    "jp.tsuteto.soundfader.device-fader": {
+        "Name": "디바이스용 페이더",
+        "Tooltip": "특정 사운드 장치의 사운드를 페이드 인/페이드 아웃합니다"
+    },
+    "Localization": {
+        "Action": "동작",
+        "Toggle": "토글",
+        "Fade out": "페이드 아웃",
+        "Fade in": "페이드 인",
+        "Application": "애플리케이션",
+        "Select Application": "애플리케이션 선택",
+        "System": "시스템",
+        "Device": "장치",
+        "Select Device": "장치 선택",
+        "Duration": "기간",
+        "Target Volume": "목표 볼륨",
+        "Display": "디스플레이",
+        "App name": "앱 이름",
+        "Device name": "디바이스 이름",
+        "Default": "기본값",
+        "Output": "출력",
+        "Input": "입력",
+        "Fade-Out Bending": "페이드 아웃 벤딩",
+        "Fade-In Bending": "페이드 인 벤딩",
+        "Intensity": "강도",
+        "Type": "유형",
+        "Exponential": "지수",
+        "Logarithmic": "로그",
+        "For details on the bending, see the Sound Fader plugin page in Marketplace.": "벤딩에 대한 자세한 내용은 마켓플레이스의 Sound Fader 플러그인 페이지를 참조하세요."
+    }
+}

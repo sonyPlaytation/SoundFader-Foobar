@@ -1,0 +1,38 @@
+﻿{
+    "Name": "Sound Fader",
+    "Description": "お使いのアプリやサウンドデバイスの音声をワンタッチでフェードイン・アウトできます。",
+    "jp.tsuteto.soundfader.app-fader": {
+        "Name": "アプリ用フェーダー",
+        "Tooltip": "指定したアプリの音声をフェードイン・アウトします"
+    },
+    "jp.tsuteto.soundfader.device-fader": {
+        "Name": "デバイス用フェーダー",
+        "Tooltip": "指定したサウンドデバイスの音声をフェードイン・アウトします"
+    },
+    "Localization": {
+        "Action": "アクション",
+        "Toggle": "切替",
+        "Fade out": "フェードアウト",
+        "Fade in": "フェードイン",
+        "Application": "アプリケーション",
+        "Select Application": "アプリケーションを選択",
+        "System": "システム",
+        "Device": "デバイス",
+        "Select Device": "デバイスを選択",
+        "Duration": "長さ",
+        "Target Volume": "目標音量",
+        "Display": "表示",
+        "App name": "アプリ名",
+        "Device name": "デバイス名",
+        "Default": "デフォルト",
+        "Output": "出力",
+        "Input": "入力",
+        "Fade-Out Bending": "フェードアウト・ベンド",
+        "Fade-In Bending": "フェードイン・ベンド",
+        "Intensity": "強度",
+        "Type": "タイプ",
+        "Exponential": "指数関数的",
+        "Logarithmic": "対数関数的",
+        "For details on the bending, see the Sound Fader plugin page in Marketplace.": "ベンドの詳細は、マーケットプレイスの Sound Fader プラグインのページをご覧ください。"
+    }
+}

@@ -1,0 +1,38 @@
+﻿{
+    "Name": "Sound Fader",
+    "Description": "Permet un fondu du son des applications et des appareils sonores d'une simple pression.",
+    "jp.tsuteto.soundfader.app-fader": {
+        "Name": "Pour les apps",
+        "Tooltip": "Permet un fondu entrant/sortant du son d'une application spécifique"
+    },
+    "jp.tsuteto.soundfader.device-fader": {
+        "Name": "Pour les appareils",
+        "Tooltip": "Permet un fondu entrant/sortant du son d'un appareil sonore spécifique"
+    },
+    "Localization": {
+        "Action": "Action",
+        "Toggle": "Basculer",
+        "Fade out": "Fondu sortant",
+        "Fade in": "Fondu entrant",
+        "Application": "Application",
+        "Select Application": "Sélectionner l'application",
+        "System": "Système",
+        "Device": "Appareil",
+        "Select Device": "Sélectionner l'appareil",
+        "Duration": "Durée",
+        "Target Volume": "Volume cible",
+        "Display": "Affichage",
+        "App name": "Nom app",
+        "Device name": "Nom appareil",
+        "Default": "Défaut",
+        "Output": "Sortie",
+        "Input": "Entrée",
+        "Fade-Out Bending": "Fondu sortant de courbure",
+        "Fade-In Bending": "Fondu entrant de courbure",
+        "Intensity": "Intensité",
+        "Type": "Type",
+        "Exponential": "Exponentiel",
+        "Logarithmic": "Logarithmique",
+        "For details on the bending, see the Sound Fader plugin page in Marketplace.": "Pour plus de détails sur la courbure, consultez la page du plugin Sound Fader sur le Marketplace."
+    }
+}

@@ -1,0 +1,38 @@
+﻿{
+    "Name": "Sound Fader",
+    "Description": "Te permite fundir y atenuar el sonido de aplicaciones y dispositivos de sonido con un solo toque.",
+    "jp.tsuteto.soundfader.app-fader": {
+        "Name": "Para apps",
+        "Tooltip": "Fundido de entrada/salida del sonido de una aplicación específica"
+    },
+    "jp.tsuteto.soundfader.device-fader": {
+        "Name": "Para dispositivos",
+        "Tooltip": "Fundido de entrada/salida del sonido de un dispositivo de sonido específico"
+    },
+    "Localization": {
+        "Action": "Acción",
+        "Toggle": "Alternar",
+        "Fade out": "Fundido de salida",
+        "Fade in": "Fundido de entrada",
+        "Application": "Aplicación",
+        "Select Application": "Seleccionar aplicación",
+        "System": "Sistema",
+        "Device": "Dispositivo",
+        "Select Device": "Seleccionar dispositivo",
+        "Duration": "Duración",
+        "Target Volume": "Volumen objetivo",
+        "Display": "Mostrar",
+        "App name": "Nombre de app",
+        "Device name": "Nombre del dispositivo",
+        "Default": "Defecto",
+        "Output": "Salida",
+        "Input": "Entrada",
+        "Fade-Out Bending": "Curvatura de fundido de salida",
+        "Fade-In Bending": "Curvatura de fundido de entrada",
+        "Intensity": "Intensidad",
+        "Type": "Tipo",
+        "Exponential": "Exponencial",
+        "Logarithmic": "Logarítmico",
+        "For details on the bending, see the Sound Fader plugin page in Marketplace.": "Para más detalles sobre la curvatura, consulta la página del plugin Sound Fader en el Marketplace."
+    }
+}
